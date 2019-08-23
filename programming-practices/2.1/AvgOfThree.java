@@ -6,8 +6,7 @@ public class AvgOfThree {
         {
             total += i;
         }
-        double average = total / nums.length;
-        return average;
+        return total / nums.length;
     }
     public static void main(String args[]) {
         int nums[] = {1, 2, 3};
