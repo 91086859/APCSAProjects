@@ -8,7 +8,7 @@ public class FtoC
     public static void main(String[] args)
     {
         final int BASE = 32;
-        final double CONVERSION_FACTOR = 9.0 / 5.0;
+        final double CONVERSION_FACTOR = 5.0 / 9.0;
         
         int fahrenheitTemp = 24; // value to convert
         double celsiusTemp;
