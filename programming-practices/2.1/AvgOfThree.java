@@ -2,7 +2,7 @@ import java.util.*;
 public class AvgOfThree {
     public static double avg(int nums[])
     {
-        int total = 0;
+        double total = 0;
         for(int i : nums)
         {
             total += i;
