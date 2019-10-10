@@ -5,7 +5,7 @@ public class Die {
     public Die(int newSides)
     {
         numSides = newSides;
-    }
+    } // end constructor Die
     public static int roll()
     {
         Random r = new Random();
