@@ -12,7 +12,7 @@ public class ScannerArrays
         for(int i = 0; i < nums.length; i++) 
         {
             nums[i] = scan.nextInt();
-        }
+        } // end nums iterator
         System.out.println();  
         System.out.println("Your numbers are: " + Arrays.toString(nums));
     } // end main method
