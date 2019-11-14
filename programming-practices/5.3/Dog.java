@@ -72,18 +72,19 @@ public class Dog implements Comparable<Dog>
         return name + "'s Age: " + age + "\nBreed: " + breed + "\nWeight: " + weight;
     } // end toString()
 
-    public int compareTo(Dog dog) {
+    public int compareTo(Dog dog) 
+    {
         if(age == dog.age)
         {
             return 0;
-        }
+        } // end equal conditional
         else if(age > dog.age)
         {
             return 1;
-        }
+        } // end greater than conditional
         else
         {
             return -1;
-        }
-    }
+        } // end else conditional
+    } // end compareTo()
 } // end class Dog
