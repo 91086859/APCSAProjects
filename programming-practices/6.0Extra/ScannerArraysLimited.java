@@ -15,7 +15,7 @@ public class ScannerArraysLimited
         } // end nums iterator
         System.out.println(); 
         int currentIndex = -1;
-        int size = 5;
+        int size = nums.length;
         int[] temp = new int[size];
         for(int i = 0; i < nums.length; i++)
         {
