@@ -84,4 +84,4 @@ public class countingIntsChart
         System.out.println("31-40     |    " + Asterisks(countThirtyOneThruForty));
         System.out.println("41-50     |    " + Asterisks(countFortyOneThruFifty));
     } // end main method
-} // end class ScannerArraysLimited
+} // end class countingIntsChart
