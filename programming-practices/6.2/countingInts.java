@@ -71,4 +71,4 @@ public class countingInts
             count = 0;
         } // end finalArr iterator
     } // end main method
-} // end class ScannerArraysLimited
+} // end class countingInts
